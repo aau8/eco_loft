@@ -1,0 +1,22 @@
+{
+  "name": "ecoloft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrashmoylova/eco_loft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandrashmoylova/eco_loft/issues"
+  },
+  "homepage": "https://github.com/alexandrashmoylova/eco_loft#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
