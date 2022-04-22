@@ -4,46 +4,149 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Lato"), url("../fonts/lato.woff") format("woff"), url("../fonts/lato.woff2") format("woff2"); }
+  src: local("Lato"), url("../fonts/lato.woff") format("woff"),
+    url("../fonts/lato.woff2") format("woff2");
+}
 
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Lato"), url("../fonts/latolight.woff") format("woff"), url("../fonts/latolight.woff2") format("woff2"); }
+  src: local("Lato"), url("../fonts/latolight.woff") format("woff"),
+    url("../fonts/latolight.woff2") format("woff2");
+}
 
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: local("Lato"), url("../fonts/latobold.woff") format("woff"), url("../fonts/latobold.woff2") format("woff2"); }
+  src: local("Lato"), url("../fonts/latobold.woff") format("woff"),
+    url("../fonts/latobold.woff2") format("woff2");
+}
 
-  .body {
-    margin: 0 auto;
-    max-width: 1440px;
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #E5E5E5;
-    color: #001F3A;
-  };
+.body {
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #e5e5e5;
+  color: #001f3a;
+  position: relative;
+}
 
-  a {
-    text-decoration: none; 
-};
-  
-  img {
-    max-width: 100%;
-    height: auto; 
-};
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 .header {
-    width: 1075px;
-    background-color: red;
-};
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
 
+.nav {
+  background-color:#F9F9F9;
+  width: 1075px;
+  margin-left: 365px;
+}
 
+.site-list {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.site-list__item {
+  text-align: center; 
+}
+
+.site-list__item-link {
+  cursor: pointer;
+}
+
+.nav__tel {
+  color: #007FDB;
+  cursor: pointer;
+}
+
+.book {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/josh-hild-ra7Gw5sjcYc-unsplash\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  height: 400px;
+}
+
+.book__wrapper {
+  padding-top: 184px;
+  padding-left: 61px;
+}
+
+.book__title {
+  margin: 0;
+  font-size: 55px;
+  line-height: 66px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+
+.book__button {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #001F3A;
+  text-transform: uppercase;
+  background-color: #FDFDFD;
+  padding: 21px 85px;
+}
+
+.features {
+  width: 1360px;
+  position: absolute;
+  top: 350px;
+  left: 40px;
+  background-color: #FFFFFF;
+}
+
+.features__wrapper {
+  padding: 58px 46px 58px 41px;
+  display: flex;
+  align-items: center;
+}
+
+.features__title {
+  margin: 0;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.features__list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
